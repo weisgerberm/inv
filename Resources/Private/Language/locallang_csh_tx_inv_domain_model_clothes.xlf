@@ -1,29 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf" date="2022-09-26T09:30:33Z" product-name="inv">
-		<header/>
-		<body>
-			<trans-unit id="name.description" resname="name.description">
-				<source>Clothes name</source>
-			</trans-unit>
-			<trans-unit id="description.description" resname="description.description">
-				<source>further text</source>
-			</trans-unit>
-			<trans-unit id="size.description" resname="size.description">
-				<source>items size</source>
-			</trans-unit>
-			<trans-unit id="season.description" resname="season.description">
-				<source>season when to wear the item</source>
-			</trans-unit>
-			<trans-unit id="images.description" resname="images.description">
-				<source>Image/s of the item</source>
-			</trans-unit>
-			<trans-unit id="slug.description" resname="slug.description">
-				<source>Path slug</source>
-			</trans-unit>
-			<trans-unit id="location.description" resname="location.description">
-				<source>where the item is located</source>
-			</trans-unit>
-		</body>
-	</file>
+  <file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes" date="2022-09-2613:51:45Z" product-name="inv">
+    <header>
+      <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
+    </header>
+    <body>
+      <trans-unit id="name.description" resname="name.description" approved="no">
+        <source>Clothes name</source>
+      </trans-unit>
+      <trans-unit id="description.description" resname="description.description" approved="no">
+        <source>further text</source>
+      </trans-unit>
+      <trans-unit id="size.description" resname="size.description" approved="no">
+        <source>items size</source>
+      </trans-unit>
+      <trans-unit id="season.description" resname="season.description" approved="no">
+        <source>season when to wear the item</source>
+      </trans-unit>
+      <trans-unit id="images.description" resname="images.description" approved="no">
+        <source>Image/s of the item</source>
+      </trans-unit>
+      <trans-unit id="slug.description" resname="slug.description" approved="no">
+        <source>Path slug</source>
+      </trans-unit>
+      <trans-unit id="location.description" resname="location.description" approved="no">
+        <source>where the item is located</source>
+      </trans-unit>
+      <trans-unit id="season.1" resname="season.1" approved="no">
+        <source>Spring</source>
+      </trans-unit>
+      <trans-unit id="season.2" resname="season.2" approved="no">
+        <source>Summer</source>
+      </trans-unit>
+      <trans-unit id="season.3" resname="season.3" approved="no">
+        <source>Autumn</source>
+      </trans-unit>
+      <trans-unit id="season.4" resname="season.4" approved="no">
+        <source>Winter</source>
+      </trans-unit>
+      <trans-unit id="season.0" resname="season.0" approved="no">
+        <source>-</source>
+      </trans-unit>
+      <trans-unit id="size.0" resname="size.0" approved="no">
+        <source>-</source>
+      </trans-unit>
+      <trans-unit id="size.10" resname="size.10" approved="no">
+        <source>XS</source>
+      </trans-unit>
+      <trans-unit id="size.20" resname="size.20" approved="no">
+        <source>S</source>
+      </trans-unit>
+      <trans-unit id="size.30" resname="size.30" approved="no">
+        <source>M</source>
+      </trans-unit>
+      <trans-unit id="size.40" resname="size.40" approved="no">
+        <source>L</source>
+      </trans-unit>
+      <trans-unit id="size.50" resname="size.50" approved="no">
+        <source>XL</source>
+      </trans-unit>
+      <trans-unit id="size.60" resname="size.60" approved="no">
+        <source>XXL</source>
+      </trans-unit>
+      <trans-unit id="size.70" resname="size.70" approved="no">
+        <source>35</source>
+      </trans-unit>
+      <trans-unit id="size.75" resname="size.75" approved="no">
+        <source>36</source>
+      </trans-unit>
+      <trans-unit id="size.80" resname="size.80" approved="no">
+        <source>37</source>
+      </trans-unit>
+      <trans-unit id="size.85" resname="size.85" approved="no">
+        <source>38</source>
+      </trans-unit>
+      <trans-unit id="size.90" resname="size.90" approved="no">
+        <source>39</source>
+      </trans-unit>
+      <trans-unit id="size.95" resname="size.95" approved="no">
+        <source>39</source>
+      </trans-unit>
+      <trans-unit id="size.100" resname="size.100" approved="no">
+        <source>40</source>
+      </trans-unit>
+      <trans-unit id="size.105" resname="size.105" approved="no">
+        <source>41</source>
+      </trans-unit>
+      <trans-unit id="size.110" resname="size.110" approved="no">
+        <source>42</source>
+      </trans-unit>
+      <trans-unit id="size.115" resname="size.115" approved="no">
+        <source>43</source>
+      </trans-unit>
+      <trans-unit id="size.120" resname="size.120" approved="no">
+        <source>44</source>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>

@@ -46,6 +46,10 @@ overwriteSettings:
       Repository: merge
 
   Configuration:
+    Icons.php: keep
+    Extbase:
+      Persistence:
+        Classes.php: merge
     TCA:
       Overrides: merge
     TypoScript: merge
@@ -58,7 +62,7 @@ overwriteSettings:
         Extension.svg: keep
         user_plugin_main.svg: keep
     Private:
-      Language: keep
+      #Language: keep
       Layouts: keep
       Partials: keep
       Templates: keep

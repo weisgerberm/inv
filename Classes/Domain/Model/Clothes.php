@@ -17,23 +17,8 @@ namespace Weisgerber\Inv\Domain\Model;
 /**
  * Clothes
  */
-class Clothes extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
+class Clothes extends \Weisgerber\Inv\Domain\Model\Item
 {
-
-    /**
-     * Clothes name
-     *
-     * @var string
-     * @TYPO3\CMS\Extbase\Annotation\Validate("NotEmpty")
-     */
-    protected $name = '';
-
-    /**
-     * further text
-     *
-     * @var string
-     */
-    protected $description = '';
 
     /**
      * items size
@@ -48,112 +33,6 @@ class Clothes extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * @var int
      */
     protected $season = 0;
-
-    /**
-     * Image/s of the item
-     *
-     * @var \TYPO3\CMS\Extbase\Domain\Model\FileReference
-     * @TYPO3\CMS\Extbase\Annotation\ORM\Cascade("remove")
-     */
-    protected $images = null;
-
-    /**
-     * Path slug
-     *
-     * @var string
-     */
-    protected $slug = '';
-
-    /**
-     * where the item is located
-     *
-     * @var \Weisgerber\Inv\Domain\Model\Location
-     */
-    protected $location = null;
-
-    /**
-     * Returns the name
-     *
-     * @return string
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    /**
-     * Sets the name
-     *
-     * @param string $name
-     * @return void
-     */
-    public function setName(string $name)
-    {
-        $this->name = $name;
-    }
-
-    /**
-     * Returns the description
-     *
-     * @return string
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    /**
-     * Sets the description
-     *
-     * @param string $description
-     * @return void
-     */
-    public function setDescription(string $description)
-    {
-        $this->description = $description;
-    }
-
-    /**
-     * Returns the images
-     *
-     * @return \TYPO3\CMS\Extbase\Domain\Model\FileReference
-     */
-    public function getImages()
-    {
-        return $this->images;
-    }
-
-    /**
-     * Sets the images
-     *
-     * @param \TYPO3\CMS\Extbase\Domain\Model\FileReference $images
-     * @return void
-     */
-    public function setImages(\TYPO3\CMS\Extbase\Domain\Model\FileReference $images)
-    {
-        $this->images = $images;
-    }
-
-    /**
-     * Returns the location
-     *
-     * @return \Weisgerber\Inv\Domain\Model\Location
-     */
-    public function getLocation()
-    {
-        return $this->location;
-    }
-
-    /**
-     * Sets the location
-     *
-     * @param \Weisgerber\Inv\Domain\Model\Location $location
-     * @return void
-     */
-    public function setLocation(\Weisgerber\Inv\Domain\Model\Location $location)
-    {
-        $this->location = $location;
-    }
 
     /**
      * Returns the size
@@ -195,26 +74,5 @@ class Clothes extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setSeason(int $season)
     {
         $this->season = $season;
-    }
-
-    /**
-     * Returns the slug
-     *
-     * @return string
-     */
-    public function getSlug()
-    {
-        return $this->slug;
-    }
-
-    /**
-     * Sets the slug
-     *
-     * @param string $slug
-     * @return void
-     */
-    public function setSlug(string $slug)
-    {
-        $this->slug = $slug;
     }
 }

@@ -3,19 +3,19 @@
         {
             "config": {
                 "position": [
-                    369,
-                    168
+                    419,
+                    99
                 ]
             },
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_index": true,
+                    "_default0_index": false,
                     "_default1_list": true,
-                    "_default2_show": true,
-                    "_default3_new_create": true,
-                    "_default4_edit_update": true,
-                    "_default5_delete": true,
+                    "_default2_show": false,
+                    "_default3_new_create": false,
+                    "_default4_edit_update": false,
+                    "_default5_delete": false,
                     "customActions": []
                 },
                 "name": "Clothes",
@@ -27,37 +27,13 @@
                     "categorizable": true,
                     "description": "",
                     "mapToTable": "",
-                    "parentClass": "",
+                    "parentClass": "\\Weisgerber\\Inv\\Domain\\Model\\Item",
                     "sorting": true,
                     "type": "Entity",
                     "uid": "757690482146"
                 },
                 "propertyGroup": {
                     "properties": [
-                        {
-                            "allowedFileTypes": "",
-                            "maxItems": "1",
-                            "propertyDescription": "Clothes name",
-                            "propertyIsExcludeField": true,
-                            "propertyIsL10nModeExclude": false,
-                            "propertyIsNullable": false,
-                            "propertyIsRequired": true,
-                            "propertyName": "name",
-                            "propertyType": "String",
-                            "uid": "285568965284"
-                        },
-                        {
-                            "allowedFileTypes": "",
-                            "maxItems": "1",
-                            "propertyDescription": "further text",
-                            "propertyIsExcludeField": true,
-                            "propertyIsL10nModeExclude": false,
-                            "propertyIsNullable": false,
-                            "propertyIsRequired": false,
-                            "propertyName": "description",
-                            "propertyType": "RichText",
-                            "uid": "900746215016"
-                        },
                         {
                             "allowedFileTypes": "",
                             "maxItems": "1",
@@ -81,55 +57,19 @@
                             "propertyName": "season",
                             "propertyType": "Select",
                             "uid": "1396276438130"
-                        },
-                        {
-                            "allowedFileTypes": "",
-                            "maxItems": "1",
-                            "propertyDescription": "Image\/s of the item",
-                            "propertyIsExcludeField": true,
-                            "propertyIsL10nModeExclude": false,
-                            "propertyIsNullable": false,
-                            "propertyIsRequired": false,
-                            "propertyName": "images",
-                            "propertyType": "Image",
-                            "uid": "974754290071"
-                        },
-                        {
-                            "allowedFileTypes": "",
-                            "maxItems": "1",
-                            "propertyDescription": "Path slug",
-                            "propertyIsExcludeField": true,
-                            "propertyIsL10nModeExclude": false,
-                            "propertyIsNullable": false,
-                            "propertyIsRequired": false,
-                            "propertyName": "slug",
-                            "propertyType": "Slug",
-                            "uid": "1495911897799"
                         }
                     ]
                 },
                 "relationGroup": {
-                    "relations": [
-                        {
-                            "foreignRelationClass": "",
-                            "lazyLoading": false,
-                            "propertyIsExcludeField": true,
-                            "relationDescription": "where the item is located",
-                            "relationName": "location",
-                            "relationType": "manyToOne",
-                            "relationWire": "[wired]",
-                            "renderType": "selectSingle",
-                            "uid": "1028333630562"
-                        }
-                    ]
+                    "relations": []
                 }
             }
         },
         {
             "config": {
                 "position": [
-                    95,
-                    302
+                    171,
+                    467
                 ]
             },
             "name": "New Model Object",
@@ -177,6 +117,195 @@
                     "relations": []
                 }
             }
+        },
+        {
+            "config": {
+                "position": [
+                    433,
+                    439
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": false,
+                    "_default2_show": false,
+                    "_default3_new_create": false,
+                    "_default4_edit_update": false,
+                    "_default5_delete": false,
+                    "customActions": []
+                },
+                "name": "Shop",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "884194383080"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "144729923214"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "link",
+                            "propertyType": "InputLink",
+                            "uid": "1323719528500"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    172,
+                    98
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Item",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": true,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "300247823979"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Items name",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "1105586058457"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Path slug",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "slug",
+                            "propertyType": "Slug",
+                            "uid": "1537126337592"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Image\/s of the item",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "image",
+                            "propertyType": "Image",
+                            "uid": "1369478614404"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "price",
+                            "propertyType": "Float",
+                            "uid": "1255087166687"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "description",
+                            "propertyType": "Text",
+                            "uid": "461172385740"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "location",
+                            "relationType": "manyToOne",
+                            "relationWire": "[wired]",
+                            "renderType": "selectSingle",
+                            "uid": "1235697889167"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "shop",
+                            "relationType": "zeroToOne",
+                            "relationWire": "[wired]",
+                            "renderType": "selectSingle",
+                            "uid": "763685939582"
+                        }
+                    ]
+                }
+            }
         }
     ],
     "properties": {
@@ -211,8 +340,8 @@
         "plugins": [
             {
                 "actions": {
-                    "controllerActionCombinations": "Clothes => index,list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete",
-                    "noncacheableActions": "Clothes => index,list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete"
+                    "controllerActionCombinations": "Clothes => list\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete",
+                    "noncacheableActions": "Clothes => list\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete"
                 },
                 "description": "Plugin related to clothes",
                 "key": "main",
@@ -224,20 +353,32 @@
     "wires": [
         {
             "src": {
-                "moduleId": 0,
+                "moduleId": 3,
                 "terminal": "relationWire_0",
-                "uid": "1028333630562"
+                "uid": "1235697889167"
             },
             "tgt": {
                 "moduleId": 1,
                 "terminal": "SOURCES",
                 "uid": "565860336611"
             }
+        },
+        {
+            "src": {
+                "moduleId": 3,
+                "terminal": "relationWire_1",
+                "uid": "763685939582"
+            },
+            "tgt": {
+                "moduleId": 2,
+                "terminal": "SOURCES",
+                "uid": "884194383080"
+            }
         }
     ],
     "storagePath": "\/home\/u676675988\/domains\/foxpunk.de\/public_html\/11\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2022-09-26 10:08",
+        "last_modified": "2022-09-26 01:05",
         "extension_builder_version": "11.0.3",
         "be_user": " (2)"
     }
