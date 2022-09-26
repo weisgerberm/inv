@@ -1,0 +1,32 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-inv">
+	<tr>
+		<td><f:translate key="tx_inv_domain_model_clothes.name" /></td>
+		<td>{clothes.name}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_inv_domain_model_clothes.description" /></td>
+		<td>{clothes.description -> f:format.html()}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_inv_domain_model_clothes.size" /></td>
+		<td>{clothes.size}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_inv_domain_model_clothes.season" /></td>
+		<td>{clothes.season}</td>
+	</tr>
+    <f:if condition="{clothes.images}">
+        <tr>
+            <td><f:translate key="tx_inv_domain_model_clothes.images" /></td>
+            <td>
+                <f:image src="{clothes.images.originalResource.publicUrl}" width="200"/>
+            </td>
+        </tr>
+    </f:if>
+	<tr>
+		<td><f:translate key="tx_inv_domain_model_clothes.slug" /></td>
+		<td>{clothes.slug}</td>
+	</tr>
+</table>
+</html>

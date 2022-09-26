@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf" date="2022-09-26T09:30:33Z" product-name="inv">
+		<header/>
+		<body>
+			<trans-unit id="name.description" resname="name.description">
+				<source>Clothes name</source>
+			</trans-unit>
+			<trans-unit id="description.description" resname="description.description">
+				<source>further text</source>
+			</trans-unit>
+			<trans-unit id="size.description" resname="size.description">
+				<source>items size</source>
+			</trans-unit>
+			<trans-unit id="season.description" resname="season.description">
+				<source>season when to wear the item</source>
+			</trans-unit>
+			<trans-unit id="images.description" resname="images.description">
+				<source>Image/s of the item</source>
+			</trans-unit>
+			<trans-unit id="slug.description" resname="slug.description">
+				<source>Path slug</source>
+			</trans-unit>
+			<trans-unit id="location.description" resname="location.description">
+				<source>where the item is located</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

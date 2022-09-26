@@ -1,0 +1,16 @@
+plugin.tx_inv_main {
+    view {
+        # cat=plugin.tx_inv_main/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:inv/Resources/Private/Templates/
+        # cat=plugin.tx_inv_main/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:inv/Resources/Private/Partials/
+        # cat=plugin.tx_inv_main/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:inv/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_inv_main//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder

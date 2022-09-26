@@ -1,0 +1,244 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    369,
+                    168
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": true,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Clothes",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": true,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "757690482146"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Clothes name",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "285568965284"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "further text",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "description",
+                            "propertyType": "RichText",
+                            "uid": "900746215016"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "items size",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "size",
+                            "propertyType": "Select",
+                            "uid": "653020663260"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "season when to wear the item",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "season",
+                            "propertyType": "Select",
+                            "uid": "1396276438130"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Image\/s of the item",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "images",
+                            "propertyType": "Image",
+                            "uid": "974754290071"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Path slug",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "slug",
+                            "propertyType": "Slug",
+                            "uid": "1495911897799"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "where the item is located",
+                            "relationName": "location",
+                            "relationType": "manyToOne",
+                            "relationWire": "[wired]",
+                            "renderType": "selectSingle",
+                            "uid": "1028333630562"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    95,
+                    302
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": true,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Location",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "565860336611"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Location name",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "1342599603019"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Manage your clothing collection",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": true,
+            "generateEditorConfig": true,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "inv",
+        "name": "Inventory",
+        "originalExtensionKey": "inv",
+        "originalVendorName": "Weisgerber",
+        "persons": [
+            {
+                "company": "",
+                "email": "mark.weisgerber@outlook.de",
+                "name": "Mark Weisgerber",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Clothes => index,list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete",
+                    "noncacheableActions": "Clothes => index,list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete"
+                },
+                "description": "Plugin related to clothes",
+                "key": "main",
+                "name": "Inventory"
+            }
+        ],
+        "vendorName": "Weisgerber"
+    },
+    "wires": [
+        {
+            "src": {
+                "moduleId": 0,
+                "terminal": "relationWire_0",
+                "uid": "1028333630562"
+            },
+            "tgt": {
+                "moduleId": 1,
+                "terminal": "SOURCES",
+                "uid": "565860336611"
+            }
+        }
+    ],
+    "storagePath": "\/home\/u676675988\/domains\/foxpunk.de\/public_html\/11\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2022-09-26 10:08",
+        "extension_builder_version": "11.0.3",
+        "be_user": " (2)"
+    }
+}
