@@ -3,8 +3,8 @@
         {
             "config": {
                 "position": [
-                    419,
-                    99
+                    1273,
+                    190
                 ]
             },
             "name": "New Model Object",
@@ -68,8 +68,8 @@
         {
             "config": {
                 "position": [
-                    171,
-                    467
+                    244,
+                    503
                 ]
             },
             "name": "New Model Object",
@@ -121,8 +121,8 @@
         {
             "config": {
                 "position": [
-                    433,
-                    439
+                    499,
+                    509
                 ]
             },
             "name": "New Model Object",
@@ -186,8 +186,8 @@
         {
             "config": {
                 "position": [
-                    172,
-                    98
+                    12,
+                    47
                 ]
             },
             "name": "New Model Object",
@@ -268,6 +268,18 @@
                         {
                             "allowedFileTypes": "",
                             "maxItems": "1",
+                            "propertyDescription": "items condition",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "itemCondition",
+                            "propertyType": "Select",
+                            "uid": "1005811149270"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
                             "propertyDescription": "",
                             "propertyIsExcludeField": true,
                             "propertyIsL10nModeExclude": false,
@@ -306,6 +318,277 @@
                     ]
                 }
             }
+        },
+        {
+            "config": {
+                "position": [
+                    1039,
+                    192
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Game",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": true,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "\\Weisgerber\\Inv\\Domain\\Model\\Item",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "1537336803718"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "link",
+                            "propertyType": "InputLink",
+                            "uid": "903751742968"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "digital",
+                            "propertyType": "Boolean",
+                            "uid": "52102433710"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "platform",
+                            "relationType": "manyToMany",
+                            "relationWire": "[wired]",
+                            "renderType": "selectMultipleSideBySide",
+                            "uid": "1318774277543"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    803,
+                    191
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Movie",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": true,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "\\Weisgerber\\Inv\\Domain\\Model\\Item",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "1293064413171"
+                },
+                "propertyGroup": {
+                    "properties": []
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "platform",
+                            "relationType": "manyToMany",
+                            "relationWire": "[wired]",
+                            "renderType": "selectMultipleSideBySide",
+                            "uid": "218813308623"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    1293,
+                    678
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": false,
+                    "_default2_show": false,
+                    "_default3_new_create": false,
+                    "_default4_edit_update": false,
+                    "_default5_delete": false,
+                    "customActions": []
+                },
+                "name": "Medium",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": true,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "1532552859376"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "1383635782570"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "size in megabyte",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "size",
+                            "propertyType": "Float",
+                            "uid": "1228053259807"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    1000,
+                    675
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": false,
+                    "_default2_show": false,
+                    "_default3_new_create": false,
+                    "_default4_edit_update": false,
+                    "_default5_delete": false,
+                    "customActions": []
+                },
+                "name": "Platform",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "1213917217003"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "1338837841970"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "link",
+                            "propertyType": "InputLink",
+                            "uid": "915464904832"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "thumbnail",
+                            "propertyType": "File",
+                            "uid": "1137445749422"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
         }
     ],
     "properties": {
@@ -340,8 +623,8 @@
         "plugins": [
             {
                 "actions": {
-                    "controllerActionCombinations": "Clothes => list,show,new,create,edit,update,delete\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete",
-                    "noncacheableActions": "Clothes => list,show,new,create,edit,update,delete\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete"
+                    "controllerActionCombinations": "Clothes => list,show,new,create,edit,update,delete\nGame => list,show,new,create,edit,update,delete\nMovie => list,show,new,create,edit,update,delete\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete",
+                    "noncacheableActions": "Clothes => list,show,new,create,edit,update,delete\nGame => list,show,new,create,edit,update,delete\nMovie => list,show,new,create,edit,update,delete\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete"
                 },
                 "description": "Plugin related to clothes",
                 "key": "main",
@@ -374,11 +657,35 @@
                 "terminal": "SOURCES",
                 "uid": "884194383080"
             }
+        },
+        {
+            "src": {
+                "moduleId": 4,
+                "terminal": "relationWire_0",
+                "uid": "1318774277543"
+            },
+            "tgt": {
+                "moduleId": 7,
+                "terminal": "SOURCES",
+                "uid": "1213917217003"
+            }
+        },
+        {
+            "src": {
+                "moduleId": 5,
+                "terminal": "relationWire_0",
+                "uid": "218813308623"
+            },
+            "tgt": {
+                "moduleId": 7,
+                "terminal": "SOURCES",
+                "uid": "1213917217003"
+            }
         }
     ],
     "storagePath": "\/home\/u676675988\/domains\/foxpunk.de\/public_html\/11\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2022-09-26 02:01",
+        "last_modified": "2022-09-28 09:28",
         "extension_builder_version": "11.0.3",
         "be_user": " (2)"
     }

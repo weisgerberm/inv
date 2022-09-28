@@ -10,5 +10,11 @@ defined('TYPO3') || die();
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_inv_domain_model_item', 'EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_item.xlf');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_inv_domain_model_item');
+
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_inv_domain_model_medium', 'EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_medium.xlf');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_inv_domain_model_medium');
+
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_inv_domain_model_platform', 'EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_platform.xlf');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_inv_domain_model_platform');
 })();
 ## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder

@@ -111,6 +111,13 @@ $GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['season']['config']['item
     ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:season.3','3'],
     ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:season.4','4'],
 );
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['condition']['config']['items'] = array(
+    ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_item.xlf:condition.0','0'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_item.xlf:condition.1','1'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_item.xlf:condition.2','2'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_item.xlf:condition.3','3'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_item.xlf:condition.4','4'],
+);
 
 $GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['size']['config']['items'] = array(
     ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:size.0','0'],

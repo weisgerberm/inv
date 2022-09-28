@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang" date="2022-09-2821:29:08Z" product-name="inv" target-language="de">
+    <header>
+      <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
+    </header>
+    <body>
+      <trans-unit id="tx_inv_domain_model_clothes.name" resname="tx_inv_domain_model_clothes.name" approved="no">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_clothes.description" resname="tx_inv_domain_model_clothes.description" approved="no">
+        <source>Description</source>
+        <target>Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.categories" resname="tx_inv_domain_model_item.categories" approved="no">
+        <source>Categories</source>
+        <target>Kategorien</target>
+      </trans-unit>
+      <trans-unit id="condition.0" resname="condition.0" approved="no">
+        <source>---</source>
+        <target>---</target>
+      </trans-unit>
+      <trans-unit id="condition.1" resname="condition.1" approved="no">
+        <source>Very bad</source>
+        <target>Sehr schlecht</target>
+      </trans-unit>
+      <trans-unit id="condition.2" resname="condition.2" approved="no">
+        <source>Bad</source>
+        <target>Schlecht</target>
+      </trans-unit>
+      <trans-unit id="condition.3" resname="condition.3" approved="no">
+        <source>Ok</source>
+        <target>Ok</target>
+      </trans-unit>
+      <trans-unit id="condition.4" resname="condition.4" approved="no">
+        <source>Good</source>
+        <target>Gut</target>
+      </trans-unit>
+      <trans-unit id="condition.5" resname="condition.5" approved="no">
+        <source>Very good</source>
+        <target>Sehr gut</target>
+      </trans-unit>
+      <trans-unit id="condition.6" resname="condition.6" approved="no">
+        <source>Perfect</source>
+        <target>Perfekt</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

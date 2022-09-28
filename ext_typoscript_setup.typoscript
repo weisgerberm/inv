@@ -1,0 +1,37 @@
+
+config.tx_extbase {
+  persistence {
+    classes {
+
+      Weisgerber\Inv\Domain\Model\Item {
+        subclasses {
+          Tx_Inv_Clothes = Weisgerber\Inv\Domain\Model\Clothes
+          Tx_Inv_Game = Weisgerber\Inv\Domain\Model\Game
+          Tx_Inv_Movie = Weisgerber\Inv\Domain\Model\Movie
+          
+        }
+      }
+      Weisgerber\Inv\Domain\Model\Clothes {
+        mapping {
+          tableName = tx_inv_domain_model_item
+          recordType = Tx_Inv_Clothes
+        }
+      }
+
+      Weisgerber\Inv\Domain\Model\Game {
+        mapping {
+          tableName = tx_inv_domain_model_item
+          recordType = Tx_Inv_Game
+        }
+      }
+
+      Weisgerber\Inv\Domain\Model\Movie {
+        mapping {
+          tableName = tx_inv_domain_model_item
+          recordType = Tx_Inv_Movie
+        }
+      }
+
+    }
+  }
+}

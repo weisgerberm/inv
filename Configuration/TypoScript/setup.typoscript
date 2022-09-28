@@ -27,5 +27,10 @@ page{
       disableCompression = 1
       excludeFromConcatenation = 1
     }
+    invDatatablesBS5 = {$plugin.tx_inv_main.settings.dataTablesBS5JSPath}
+    invDatatablesBS5{
+      disableCompression = 1
+      excludeFromConcatenation = 1
+    }
   }
 }

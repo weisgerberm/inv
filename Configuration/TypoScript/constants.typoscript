@@ -16,6 +16,7 @@ plugin.tx_inv_main {
     invJSPath = EXT:inv/Resources/Public/Scripts/inv.js
     invStylesPath = EXT:inv/Resources/Public/Styles/inv.css
     dataTablesJSPath = EXT:inv/Resources/Public/Scripts/datatables.min.js
-    dataTablesStylesPath = EXT:inv/Resources/Public/Styles/datatables.min.css
+    dataTablesBS5JSPath = EXT:inv/Resources/Public/Scripts/DataTables-1.12.1/js/dataTables.bootstrap5.min.js
+    dataTablesStylesPath = EXT:inv/Resources/Public/Styles/dataTables.bootstrap5.min.css
   }
 }

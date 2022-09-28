@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_db.xlf" date="2022-09-26T13:05:52Z" product-name="inv">
+	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_db.xlf" date="2022-09-28T09:28:31Z" product-name="inv">
 		<header/>
 		<body>
 			<trans-unit id="tx_inv_domain_model_clothes" resname="tx_inv_domain_model_clothes">
@@ -42,6 +42,9 @@
 			<trans-unit id="tx_inv_domain_model_item.price" resname="tx_inv_domain_model_item.price">
 				<source>Price</source>
 			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_item.item_condition" resname="tx_inv_domain_model_item.item_condition">
+				<source>Item Condition</source>
+			</trans-unit>
 			<trans-unit id="tx_inv_domain_model_item.description" resname="tx_inv_domain_model_item.description">
 				<source>Description</source>
 			</trans-unit>
@@ -50,6 +53,45 @@
 			</trans-unit>
 			<trans-unit id="tx_inv_domain_model_item.shop" resname="tx_inv_domain_model_item.shop">
 				<source>Shop</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_game" resname="tx_inv_domain_model_game">
+				<source>Game</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_game.link" resname="tx_inv_domain_model_game.link">
+				<source>Link</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_game.digital" resname="tx_inv_domain_model_game.digital">
+				<source>Digital</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_game.platform" resname="tx_inv_domain_model_game.platform">
+				<source>Platform</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_movie" resname="tx_inv_domain_model_movie">
+				<source>Movie</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_movie.platform" resname="tx_inv_domain_model_movie.platform">
+				<source>Platform</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_medium" resname="tx_inv_domain_model_medium">
+				<source>Medium</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_medium.name" resname="tx_inv_domain_model_medium.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_medium.size" resname="tx_inv_domain_model_medium.size">
+				<source>Size</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_platform" resname="tx_inv_domain_model_platform">
+				<source>Platform</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_platform.name" resname="tx_inv_domain_model_platform.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_platform.link" resname="tx_inv_domain_model_platform.link">
+				<source>Link</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_platform.thumbnail" resname="tx_inv_domain_model_platform.thumbnail">
+				<source>Thumbnail</source>
 			</trans-unit>
 		</body>
 	</file>

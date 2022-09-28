@@ -1,56 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang.xlf" date="2022-09-26T13:05:52Z" product-name="inv">
-		<header/>
-		<body>
-			<trans-unit id="tx_inv_domain_model_clothes" resname="tx_inv_domain_model_clothes">
-				<source>Clothes</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_clothes.size" resname="tx_inv_domain_model_clothes.size">
-				<source>Size</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_clothes.season" resname="tx_inv_domain_model_clothes.season">
-				<source>Season</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_location" resname="tx_inv_domain_model_location">
-				<source>Location</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_location.name" resname="tx_inv_domain_model_location.name">
-				<source>Name</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_shop" resname="tx_inv_domain_model_shop">
-				<source>Shop</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_shop.name" resname="tx_inv_domain_model_shop.name">
-				<source>Name</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_shop.link" resname="tx_inv_domain_model_shop.link">
-				<source>Link</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item" resname="tx_inv_domain_model_item">
-				<source>Item</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item.name" resname="tx_inv_domain_model_item.name">
-				<source>Name</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item.slug" resname="tx_inv_domain_model_item.slug">
-				<source>Slug</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item.image" resname="tx_inv_domain_model_item.image">
-				<source>Image</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item.price" resname="tx_inv_domain_model_item.price">
-				<source>Price</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item.description" resname="tx_inv_domain_model_item.description">
-				<source>Description</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item.location" resname="tx_inv_domain_model_item.location">
-				<source>Location</source>
-			</trans-unit>
-			<trans-unit id="tx_inv_domain_model_item.shop" resname="tx_inv_domain_model_item.shop">
-				<source>Shop</source>
-			</trans-unit>
-		</body>
-	</file>
+  <file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang" date="2022-09-2821:29:08Z" product-name="inv">
+    <header>
+      <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
+    </header>
+    <body>
+      <trans-unit id="tx_inv_domain_model_clothes" resname="tx_inv_domain_model_clothes" approved="no">
+        <source>Clothes</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_clothes.size" resname="tx_inv_domain_model_clothes.size" approved="no">
+        <source>Size</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_clothes.season" resname="tx_inv_domain_model_clothes.season" approved="no">
+        <source>Season</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_location" resname="tx_inv_domain_model_location" approved="no">
+        <source>Location</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_location.name" resname="tx_inv_domain_model_location.name" approved="no">
+        <source>Name</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_shop" resname="tx_inv_domain_model_shop" approved="no">
+        <source>Shop</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_shop.name" resname="tx_inv_domain_model_shop.name" approved="no">
+        <source>Name</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_shop.link" resname="tx_inv_domain_model_shop.link" approved="no">
+        <source>Link</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item" resname="tx_inv_domain_model_item" approved="no">
+        <source>Item</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.name" resname="tx_inv_domain_model_item.name" approved="no">
+        <source>Name</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.slug" resname="tx_inv_domain_model_item.slug" approved="no">
+        <source>Slug</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.image" resname="tx_inv_domain_model_item.image" approved="no">
+        <source>Image</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.price" resname="tx_inv_domain_model_item.price" approved="no">
+        <source>Price</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.description" resname="tx_inv_domain_model_item.description" approved="no">
+        <source>Description</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.location" resname="tx_inv_domain_model_item.location" approved="no">
+        <source>Location</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.shop" resname="tx_inv_domain_model_item.shop" approved="no">
+        <source>Shop</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_clothes.name" resname="tx_inv_domain_model_clothes.name" approved="no">
+        <source>Name</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_clothes.description" resname="tx_inv_domain_model_clothes.description" approved="no">
+        <source>Description</source>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.categories" resname="tx_inv_domain_model_item.categories" approved="no">
+        <source>Categories</source>
+      </trans-unit>
+      <trans-unit id="condition.0" resname="condition.0" approved="no">
+        <source>---</source>
+      </trans-unit>
+      <trans-unit id="condition.1" resname="condition.1" approved="no">
+        <source>Very bad</source>
+      </trans-unit>
+      <trans-unit id="condition.2" resname="condition.2" approved="no">
+        <source>Bad</source>
+      </trans-unit>
+      <trans-unit id="condition.3" resname="condition.3" approved="no">
+        <source>Ok</source>
+      </trans-unit>
+      <trans-unit id="condition.4" resname="condition.4" approved="no">
+        <source>Good</source>
+      </trans-unit>
+      <trans-unit id="condition.5" resname="condition.5" approved="no">
+        <source>Very good</source>
+      </trans-unit>
+      <trans-unit id="condition.6" resname="condition.6" approved="no">
+        <source>Perfect</source>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>

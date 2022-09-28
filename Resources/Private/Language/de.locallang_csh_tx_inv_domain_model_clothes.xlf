@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes" date="2022-09-2613:51:45Z" product-name="inv" target-language="de">
+    <header>
+      <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
+    </header>
+    <body>
+      <trans-unit id="season.1" resname="season.1" approved="no">
+        <source>Spring</source>
+        <target>Frühling</target>
+      </trans-unit>
+      <trans-unit id="season.2" resname="season.2" approved="no">
+        <source>Summer</source>
+        <target>Sommer</target>
+      </trans-unit>
+      <trans-unit id="season.3" resname="season.3" approved="no">
+        <source>Autumn</source>
+        <target>Herbst</target>
+      </trans-unit>
+      <trans-unit id="season.4" resname="season.4" approved="no">
+        <source>Winter</source>
+        <target>Winter</target>
+      </trans-unit>
+      <trans-unit id="season.0" resname="season.0" approved="no">
+        <source>-</source>
+        <target>-</target>
+      </trans-unit>
+      <trans-unit id="size.0" resname="size.0" approved="no">
+        <source>-</source>
+        <target>-</target>
+      </trans-unit>
+      <trans-unit id="size.10" resname="size.10" approved="no">
+        <source>XS</source>
+        <target>XS</target>
+      </trans-unit>
+      <trans-unit id="size.20" resname="size.20" approved="no">
+        <source>S</source>
+        <target>S</target>
+      </trans-unit>
+      <trans-unit id="size.30" resname="size.30" approved="no">
+        <source>M</source>
+        <target>M</target>
+      </trans-unit>
+      <trans-unit id="size.40" resname="size.40" approved="no">
+        <source>L</source>
+        <target>L</target>
+      </trans-unit>
+      <trans-unit id="size.50" resname="size.50" approved="no">
+        <source>XL</source>
+        <target>XL</target>
+      </trans-unit>
+      <trans-unit id="size.60" resname="size.60" approved="no">
+        <source>XXL</source>
+        <target>XXL</target>
+      </trans-unit>
+      <trans-unit id="size.70" resname="size.70" approved="no">
+        <source>35</source>
+        <target>35</target>
+      </trans-unit>
+      <trans-unit id="size.75" resname="size.75" approved="no">
+        <source>36</source>
+        <target>36</target>
+      </trans-unit>
+      <trans-unit id="size.80" resname="size.80" approved="no">
+        <source>37</source>
+        <target>37</target>
+      </trans-unit>
+      <trans-unit id="size.85" resname="size.85" approved="no">
+        <source>38</source>
+        <target>38</target>
+      </trans-unit>
+      <trans-unit id="size.90" resname="size.90" approved="no">
+        <source>39</source>
+        <target>39</target>
+      </trans-unit>
+      <trans-unit id="size.95" resname="size.95" approved="no">
+        <source>39</source>
+        <target>39</target>
+      </trans-unit>
+      <trans-unit id="size.100" resname="size.100" approved="no">
+        <source>40</source>
+        <target>40</target>
+      </trans-unit>
+      <trans-unit id="size.105" resname="size.105" approved="no">
+        <source>41</source>
+        <target>41</target>
+      </trans-unit>
+      <trans-unit id="size.110" resname="size.110" approved="no">
+        <source>42</source>
+        <target>42</target>
+      </trans-unit>
+      <trans-unit id="size.115" resname="size.115" approved="no">
+        <source>43</source>
+        <target>43</target>
+      </trans-unit>
+      <trans-unit id="size.120" resname="size.120" approved="no">
+        <source>44</source>
+        <target>44</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -7,12 +7,16 @@ defined('TYPO3') || die();
         'Main',
         [
             \Weisgerber\Inv\Controller\ClothesController::class => 'list, show, new, create, edit, update, delete',
+            \Weisgerber\Inv\Controller\GameController::class => 'list, show, new, create, edit, update, delete',
+            \Weisgerber\Inv\Controller\MovieController::class => 'list, show, new, create, edit, update, delete',
             \Weisgerber\Inv\Controller\ItemController::class => 'list, show, new, create, edit, update, delete',
             \Weisgerber\Inv\Controller\LocationController::class => 'index, list, show, new, create, edit, update, delete'
         ],
         // non-cacheable actions
         [
             \Weisgerber\Inv\Controller\ClothesController::class => 'list, show, new, create, edit, update, delete',
+            \Weisgerber\Inv\Controller\GameController::class => 'list, show, new, create, edit, update, delete',
+            \Weisgerber\Inv\Controller\MovieController::class => 'list, show, new, create, edit, update, delete',
             \Weisgerber\Inv\Controller\ItemController::class => 'list, show, new, create, edit, update, delete',
             \Weisgerber\Inv\Controller\LocationController::class => 'index, list, show, new, create, edit, update, delete'
         ]

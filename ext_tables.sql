@@ -17,6 +17,7 @@ CREATE TABLE tx_inv_domain_model_item (
 	slug varchar(255) NOT NULL DEFAULT '',
 	image int(11) unsigned NOT NULL DEFAULT '0',
 	price double(11,2) NOT NULL DEFAULT '0.00',
+	item_condition int(11) DEFAULT '0' NOT NULL,
 	description text NOT NULL DEFAULT '',
 	location int(11) unsigned DEFAULT '0',
 	shop int(11) unsigned DEFAULT '0',
@@ -24,10 +25,43 @@ CREATE TABLE tx_inv_domain_model_item (
 );
 
 CREATE TABLE tx_inv_domain_model_item (
+	link varchar(255) NOT NULL DEFAULT '',
+	digital smallint(1) unsigned NOT NULL DEFAULT '0',
+	platform int(11) unsigned NOT NULL DEFAULT '0'
+);
+
+CREATE TABLE tx_inv_domain_model_item (
+	platform int(11) unsigned NOT NULL DEFAULT '0'
+);
+
+CREATE TABLE tx_inv_domain_model_medium (
+	name varchar(255) NOT NULL DEFAULT '',
+	size double(11,2) NOT NULL DEFAULT '0.00'
+);
+
+CREATE TABLE tx_inv_domain_model_platform (
+	name varchar(255) NOT NULL DEFAULT '',
+	link varchar(255) NOT NULL DEFAULT '',
+	thumbnail int(11) unsigned NOT NULL DEFAULT '0'
+);
+
+CREATE TABLE tx_inv_domain_model_item (
 	categories int(11) unsigned DEFAULT '0' NOT NULL
 );
 
 CREATE TABLE tx_inv_domain_model_item (
+	categories int(11) unsigned DEFAULT '0' NOT NULL
+);
+
+CREATE TABLE tx_inv_domain_model_item (
+	categories int(11) unsigned DEFAULT '0' NOT NULL
+);
+
+CREATE TABLE tx_inv_domain_model_item (
+	categories int(11) unsigned DEFAULT '0' NOT NULL
+);
+
+CREATE TABLE tx_inv_domain_model_medium (
 	categories int(11) unsigned DEFAULT '0' NOT NULL
 );
 

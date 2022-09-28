@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_platform.xlf" date="2022-09-28T09:28:31Z" product-name="inv">
+		<header/>
+		<body>
+			<trans-unit id="name.description" resname="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="link.description" resname="link.description">
+				<source>link</source>
+			</trans-unit>
+			<trans-unit id="thumbnail.description" resname="thumbnail.description">
+				<source>thumbnail</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
