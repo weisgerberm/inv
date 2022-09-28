@@ -7,10 +7,15 @@ plugin.tx_inv_main {
         # cat=plugin.tx_inv_main/file; type=string; label=Path to template layouts (FE)
         layoutRootPath = EXT:inv/Resources/Private/Layouts/
     }
-    persistence {
-        # cat=plugin.tx_inv_main//a; type=string; label=Default storage PID
-        storagePid =
-    }
 }
 
 ## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
+
+plugin.tx_inv_main {
+  settings{
+    invJSPath = EXT:inv/Resources/Public/Scripts/inv.js
+    invStylesPath = EXT:inv/Resources/Public/Styles/inv.css
+    dataTablesJSPath = EXT:inv/Resources/Public/Scripts/datatables.min.js
+    dataTablesStylesPath = EXT:inv/Resources/Public/Styles/datatables.min.css
+  }
+}

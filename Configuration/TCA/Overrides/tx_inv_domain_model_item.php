@@ -100,8 +100,12 @@ $GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['slug']['config'] = [
     'eval' => 'unique'
 ];
 
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['shop']['config']['default'] = '';
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['location']['config']['default'] = '';
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['season']['config']['renderType'] = 'selectMultipleSideBySide';
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['season']['config']['size'] = 4;
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['season']['config']['maxitems'] = 4;
 $GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['season']['config']['items'] = array(
-    ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:season.0','0'],
     ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:season.1','1'],
     ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:season.2','2'],
     ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:season.3','3'],
@@ -129,4 +133,11 @@ $GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['size']['config']['items'
     ['LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:size.120','120'],
 
 
+);
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+    'tx_inv_domain_model_item',
+    'categories',
+    '',
+    'after:slug'
 );

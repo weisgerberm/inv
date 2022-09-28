@@ -34,6 +34,6 @@ CREATE TABLE tx_inv_domain_model_item (
 ## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
 
 CREATE TABLE tx_inv_domain_model_item (
-	 size varchar(255) NOT NULL DEFAULT '0',
-	 season varchar(255) NOT NULL DEFAULT '0',
+	 size varchar(255) NOT NULL DEFAULT '',
+	 season varchar(255) NOT NULL DEFAULT '',
 );

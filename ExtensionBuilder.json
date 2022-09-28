@@ -12,10 +12,10 @@
                 "actionGroup": {
                     "_default0_index": false,
                     "_default1_list": true,
-                    "_default2_show": false,
-                    "_default3_new_create": false,
-                    "_default4_edit_update": false,
-                    "_default5_delete": false,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
                     "customActions": []
                 },
                 "name": "Clothes",
@@ -340,8 +340,8 @@
         "plugins": [
             {
                 "actions": {
-                    "controllerActionCombinations": "Clothes => list\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete",
-                    "noncacheableActions": "Clothes => list\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete"
+                    "controllerActionCombinations": "Clothes => list,show,new,create,edit,update,delete\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete",
+                    "noncacheableActions": "Clothes => list,show,new,create,edit,update,delete\nItem => list,show,new,create,edit,update,delete\nLocation => index,list,show,new,create,edit,update,delete"
                 },
                 "description": "Plugin related to clothes",
                 "key": "main",
@@ -378,7 +378,7 @@
     ],
     "storagePath": "\/home\/u676675988\/domains\/foxpunk.de\/public_html\/11\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2022-09-26 01:05",
+        "last_modified": "2022-09-26 02:01",
         "extension_builder_version": "11.0.3",
         "be_user": " (2)"
     }

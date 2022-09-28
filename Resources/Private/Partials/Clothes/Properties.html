@@ -1,5 +1,5 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-<table class="tx-inv">
+<table class="tx-inv table">
 	<tr>
 		<td><f:translate key="tx_inv_domain_model_clothes.name" /></td>
 		<td>{clothes.name}</td>
@@ -9,24 +9,28 @@
 		<td>{clothes.description -> f:format.html()}</td>
 	</tr>
 	<tr>
+		<td><f:translate key="tx_inv_domain_model_item.categories" /></td>
+		<td>
+            <f:for each="{clothes.categories}" as="category">
+                <div>{category.title}</div>
+            </f:for>
+        </td>
+	</tr>
+	<tr>
 		<td><f:translate key="tx_inv_domain_model_clothes.size" /></td>
-		<td>{clothes.size}</td>
+		<td><f:translate key="LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:size.{clothes.size}" /></td>
 	</tr>
 	<tr>
 		<td><f:translate key="tx_inv_domain_model_clothes.season" /></td>
-		<td>{clothes.season}</td>
+		<td><f:translate key="LLL:EXT:inv/Resources/Private/Language/locallang_csh_tx_inv_domain_model_clothes.xlf:season.{clothes.season}" /></td>
 	</tr>
-    <f:if condition="{clothes.images}">
+    <f:if condition="{clothes.image}">
         <tr>
-            <td><f:translate key="tx_inv_domain_model_clothes.images" /></td>
+            <td><f:translate key="tx_inv_domain_model_clothes.image" /></td>
             <td>
-                <f:image src="{clothes.images.originalResource.publicUrl}" width="200"/>
+                <f:image src="{clothes.image.originalResource.publicUrl}" width="350"/>
             </td>
         </tr>
     </f:if>
-	<tr>
-		<td><f:translate key="tx_inv_domain_model_clothes.slug" /></td>
-		<td>{clothes.slug}</td>
-	</tr>
 </table>
 </html>
