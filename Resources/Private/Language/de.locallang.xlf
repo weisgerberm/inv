@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang" date="2022-09-2821:29:08Z" product-name="inv" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang" date="2022-09-2821:47:19Z" product-name="inv" target-language="de">
     <header>
       <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
     </header>
@@ -44,6 +44,10 @@
       <trans-unit id="condition.6" resname="condition.6" approved="no">
         <source>Perfect</source>
         <target>Perfekt</target>
+      </trans-unit>
+      <trans-unit id="tx_inv_domain_model_item.item_condition" resname="tx_inv_domain_model_item.item_condition" approved="no">
+        <source>Condition</source>
+        <target>Zustand</target>
       </trans-unit>
     </body>
   </file>

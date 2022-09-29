@@ -19,6 +19,7 @@ CREATE TABLE tx_inv_domain_model_item (
 	price double(11,2) NOT NULL DEFAULT '0.00',
 	item_condition int(11) DEFAULT '0' NOT NULL,
 	description text NOT NULL DEFAULT '',
+	status int(11) DEFAULT '0' NOT NULL,
 	location int(11) unsigned DEFAULT '0',
 	shop int(11) unsigned DEFAULT '0',
 	tx_extbase_type varchar(255) DEFAULT '' NOT NULL

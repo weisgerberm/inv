@@ -21,7 +21,7 @@ return [
         'iconfile' => 'EXT:inv/Resources/Public/Icons/tx_inv_domain_model_item.gif'
     ],
     'types' => [
-        'Tx_Inv_Item' => ['showitem' => 'name, slug, image, price, item_condition, description, location, shop, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime'],
+        'Tx_Inv_Item' => ['showitem' => 'name, slug, image, price, item_condition, description, status, location, shop, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime'],
     ],
     'columns' => [
         'sys_language_uid' => [
@@ -213,6 +213,20 @@ return [
                 'eval' => 'trim',
                 'default' => ''
             ]
+        ],
+        'status' => [
+            'exclude' => true,
+            'label' => 'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_item.status',
+            'config' => [
+                'type' => 'select',
+                'renderType' => 'selectSingle',
+                'items' => [
+                    ['-- Label --', 0],
+                ],
+                'size' => 1,
+                'maxitems' => 1,
+                'eval' => ''
+            ],
         ],
         'location' => [
             'exclude' => true,

@@ -82,6 +82,131 @@ $GLOBALS['TCA']['tx_inv_domain_model_item']['columns'][$GLOBALS['TCA']['tx_inv_d
     'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_item.tx_extbase_type.Tx_Inv_Clothes',
     'Tx_Inv_Clothes'
 ];
+
+$tmp_inv_columns = [
+
+    'link' => [
+        'exclude' => true,
+        'label' => 'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_game.link',
+        'config' => [
+            'type' => 'input',
+            'renderType' => 'inputLink',
+        ]
+    ],
+    'digital' => [
+        'exclude' => true,
+        'label' => 'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_game.digital',
+        'config' => [
+            'type' => 'check',
+            'renderType' => 'checkboxToggle',
+            'items' => [
+                [
+                    0 => '',
+                    1 => '',
+                ]
+            ],
+            'default' => 0,
+        ]
+    ],
+    'platform' => [
+        'exclude' => true,
+        'label' => 'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_game.platform',
+        'config' => [
+            'type' => 'select',
+            'renderType' => 'selectMultipleSideBySide',
+            'foreign_table' => 'tx_inv_domain_model_platform',
+            'MM' => 'tx_inv_game_platform_mm',
+            'size' => 10,
+            'autoSizeMax' => 30,
+            'maxitems' => 9999,
+            'multiple' => 0,
+            'fieldControl' => [
+                'editPopup' => [
+                    'disabled' => false,
+                ],
+                'addRecord' => [
+                    'disabled' => false,
+                ],
+                'listModule' => [
+                    'disabled' => true,
+                ],
+            ],
+        ],
+        
+    ],
+
+];
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_inv_domain_model_item', $tmp_inv_columns);
+
+// inherit and extend the show items from the parent class
+if (isset($GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Item']['showitem'])) {
+    $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Game']['showitem'] = $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Item']['showitem'];
+} elseif (is_array($GLOBALS['TCA']['tx_inv_domain_model_item']['types'])) {
+    // use first entry in types array
+    $tx_inv_domain_model_item_type_definition = reset($GLOBALS['TCA']['tx_inv_domain_model_item']['types']);
+    $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Game']['showitem'] = $tx_inv_domain_model_item_type_definition['showitem'];
+} else {
+    $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Game']['showitem'] = '';
+}
+$GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Game']['showitem'] .= ',--div--;LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_game,';
+$GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Game']['showitem'] .= 'link, digital, platform';
+
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns'][$GLOBALS['TCA']['tx_inv_domain_model_item']['ctrl']['type']]['config']['items'][] = [
+    'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_item.tx_extbase_type.Tx_Inv_Game',
+    'Tx_Inv_Game'
+];
+
+$tmp_inv_columns = [
+
+    'platform' => [
+        'exclude' => true,
+        'label' => 'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_movie.platform',
+        'config' => [
+            'type' => 'select',
+            'renderType' => 'selectMultipleSideBySide',
+            'foreign_table' => 'tx_inv_domain_model_platform',
+            'MM' => 'tx_inv_movie_platform_mm',
+            'size' => 10,
+            'autoSizeMax' => 30,
+            'maxitems' => 9999,
+            'multiple' => 0,
+            'fieldControl' => [
+                'editPopup' => [
+                    'disabled' => false,
+                ],
+                'addRecord' => [
+                    'disabled' => false,
+                ],
+                'listModule' => [
+                    'disabled' => true,
+                ],
+            ],
+        ],
+        
+    ],
+
+];
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_inv_domain_model_item', $tmp_inv_columns);
+
+// inherit and extend the show items from the parent class
+if (isset($GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Item']['showitem'])) {
+    $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Movie']['showitem'] = $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Item']['showitem'];
+} elseif (is_array($GLOBALS['TCA']['tx_inv_domain_model_item']['types'])) {
+    // use first entry in types array
+    $tx_inv_domain_model_item_type_definition = reset($GLOBALS['TCA']['tx_inv_domain_model_item']['types']);
+    $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Movie']['showitem'] = $tx_inv_domain_model_item_type_definition['showitem'];
+} else {
+    $GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Movie']['showitem'] = '';
+}
+$GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Movie']['showitem'] .= ',--div--;LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_movie,';
+$GLOBALS['TCA']['tx_inv_domain_model_item']['types']['Tx_Inv_Movie']['showitem'] .= 'platform';
+
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns'][$GLOBALS['TCA']['tx_inv_domain_model_item']['ctrl']['type']]['config']['items'][] = [
+    'LLL:EXT:inv/Resources/Private/Language/locallang_db.xlf:tx_inv_domain_model_item.tx_extbase_type.Tx_Inv_Movie',
+    'Tx_Inv_Movie'
+];
 ## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
 
 // Change Slug-Type

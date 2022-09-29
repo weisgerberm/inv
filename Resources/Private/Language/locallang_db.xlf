@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_db.xlf" date="2022-09-28T09:28:31Z" product-name="inv">
+	<file source-language="en" datatype="plaintext" original="EXT:inv/Resources/Private/Language/locallang_db.xlf" date="2022-09-29T08:02:31Z" product-name="inv">
 		<header/>
 		<body>
 			<trans-unit id="tx_inv_domain_model_clothes" resname="tx_inv_domain_model_clothes">
@@ -47,6 +47,9 @@
 			</trans-unit>
 			<trans-unit id="tx_inv_domain_model_item.description" resname="tx_inv_domain_model_item.description">
 				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_inv_domain_model_item.status" resname="tx_inv_domain_model_item.status">
+				<source>Status</source>
 			</trans-unit>
 			<trans-unit id="tx_inv_domain_model_item.location" resname="tx_inv_domain_model_item.location">
 				<source>Location</source>

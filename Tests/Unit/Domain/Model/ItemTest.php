@@ -165,6 +165,27 @@ class ItemTest extends UnitTestCase
     /**
      * @test
      */
+    public function getStatusReturnsInitialValueForInt(): void
+    {
+        self::assertSame(
+            0,
+            $this->subject->getStatus()
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function setStatusForIntSetsStatus(): void
+    {
+        $this->subject->setStatus(12);
+
+        self::assertEquals(12, $this->subject->_get('status'));
+    }
+
+    /**
+     * @test
+     */
     public function getLocationReturnsInitialValueForLocation(): void
     {
         self::assertEquals(

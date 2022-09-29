@@ -59,6 +59,13 @@ class Item extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $price = 0.0;
 
     /**
+     * items condition
+     *
+     * @var int
+     */
+    protected $itemCondition = 0;
+
+    /**
      * description
      *
      * @var string
@@ -80,11 +87,11 @@ class Item extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $shop = null;
 
     /**
-     * items condition
+     * status
      *
      * @var int
      */
-    protected $itemCondition = 0;
+    protected $status = 0;
 
     /**
      * Returns the name
@@ -268,5 +275,26 @@ class Item extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setItemCondition(int $itemCondition)
     {
         $this->itemCondition = $itemCondition;
+    }
+
+    /**
+     * Returns the status
+     *
+     * @return int
+     */
+    public function getStatus()
+    {
+        return $this->status;
+    }
+
+    /**
+     * Sets the status
+     *
+     * @param int $status
+     * @return void
+     */
+    public function setStatus(int $status)
+    {
+        $this->status = $status;
     }
 }
