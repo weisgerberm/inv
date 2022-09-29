@@ -132,7 +132,7 @@ $tmp_inv_columns = [
                 ],
             ],
         ],
-        
+
     ],
 
 ];
@@ -183,7 +183,7 @@ $tmp_inv_columns = [
                 ],
             ],
         ],
-        
+
     ],
 
 ];
@@ -244,6 +244,14 @@ $GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['item_condition']['config
     ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:condition.4','4'],
     ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:condition.5','5'],
     ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:condition.6','6'],
+);
+$GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['status']['config']['items'] = array(
+    ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:status.0','0'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:status.1','1'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:status.2','2'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:status.3','3'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:status.4','4'],
+    ['LLL:EXT:inv/Resources/Private/Language/locallang.xlf:status.5','5'],
 );
 
 $GLOBALS['TCA']['tx_inv_domain_model_item']['columns']['size']['config']['items'] = array(
